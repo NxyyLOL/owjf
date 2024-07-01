@@ -253,7 +253,6 @@ main .about {
     flex-direction: row;
     
     flex-wrap: wrap;
-    background-color: var(--secondTheme);
 
     opacity: 0%;
     animation-name: contact;
@@ -311,6 +310,31 @@ main .about {
     color: var(--lightTheme);
     position: relative;
     right: 5%;
+}
+
+footer {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    
+    flex-wrap: wrap;
+
+    margin-top: 18%;
+    max-height: max-content;
+
+}
+
+footer hr {
+    color: rgb(95, 95, 95);
+    width: 100%;
+}
+
+footer h3 {
+    color: rgba(115, 80, 52, 0.431);
+    margin: 1em;
+
 }
 
 @keyframes intro {
@@ -410,4 +434,22 @@ main .about {
     .wpara h3 {
         padding-bottom: 1em;
     }
+}
+
+@media screen and (max-width: 376px) {
+    .ctitle h1 {
+        font-size: xx-large;
+    }
+}
+
+@media screen and (max-width: 420px) {
+
+    .wccDetails {
+        justify-content: center;
+    }
+
+    .wccDetails p {
+        padding: 1em;
+    }
+    
 }
