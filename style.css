@@ -276,8 +276,19 @@ main .about {
         margin: 5rem;
     }
 
+    .wpara {
+        margin: 2rem;
+
+    }
+
     header nav {
         margin: 1rem;
     }
 
+}
+
+@media screen and (max-width: 1290px) {
+    .wpara h3 {
+        padding-bottom: 1em;
+    }
 }
