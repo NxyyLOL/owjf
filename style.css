@@ -310,6 +310,11 @@ main .about {
     color: var(--lightTheme);
     position: relative;
     right: 5%;
+    transition: 0.2s ease;
+}
+
+.connections a:hover {
+    color: var(--mainTheme);
 }
 
 footer {
