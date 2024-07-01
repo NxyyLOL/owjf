@@ -303,6 +303,7 @@ main .about {
     display: inlines;
     color: gray;
     margin: 10px 0 10px 0;
+    cursor: default;
 }
 
 .connections a {
@@ -315,6 +316,7 @@ main .about {
 
 .connections a:hover {
     color: var(--mainTheme);
+    cursor: pointer;
 }
 
 footer {
