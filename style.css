@@ -234,6 +234,7 @@ main .about {
     justify-content: space-around;
     align-items: center;
     height: 4rem;
+    height: max-content;
 
 }
 
@@ -243,6 +244,10 @@ main .about {
 
 .wccDetails strong:hover {
     color: var(--mainTheme);
+}
+
+.wccDetails p {
+    padding: 10px;
 }
 
 .contact {
