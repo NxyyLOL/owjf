@@ -218,6 +218,7 @@ main .about {
     max-height: 300px;
     overflow: hidden;
     margin: 5em;
+    max-height: max-content;
 
     transition: 0.7s ease;
 }
